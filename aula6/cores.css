@@ -1,0 +1,14 @@
+body{
+    background-color: #f0f0f0;
+}
+
+div{
+    display: block;
+    width: 200px;
+    height: 200px;
+    color: #aa00aa;
+    font-size:2rem;
+    background-color: #ffffff59;
+    border: 4px #00674fBF solid;
+
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Formulário</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form >
+        <label for="cores">Paleta de Cores:</label>
+        <select id="cores" name="cores">
+            <option value="quentes" selected>Cores Quentes</option>
+            <option value="frias">Cores Frias</option>
+        </select>
+        <br>
+        <label for="coresEspecíficas">Cores Específicas</label>
+        <input type="text" name="coresEspecíficas" id="coresEspecíficas" list="listadecores">
+        <datalist id="lista de cores">
+            <option value="vermelho">Vermelho</option>
+            <option value="laranja">Laranja</option>
+            <option value="amarelo">Amarelo</option>
+            <option value="verde">Verde</option>
+            <option value="azul">Azul</option>
+            <option value="roxo">Roxo</option>
+        </datalist>
+    </form>
+</body>
+</html>

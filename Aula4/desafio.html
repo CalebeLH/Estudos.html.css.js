@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <header id="topo">
+        <h1>Clube de Quadrinhos</h1>
+    </header>
+    <nav>
+        <a href="inicio">Início</a>
+        <a href="sobre">Sobre o Clube</a>
+        <a href="inscricao">Inscrição</a>
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>Bem-Vindo ao Clube de Quadrinhos!</h2>
+            <p>O nosso clube é dedicado às pessoas que amam quadinhos, e essa cultura.</p>
+            <img src="https://i.pinimg.com/736x/40/6a/61/406a61bec983ed5fcb22b34017cc83f8.jpg" alt="Pilha de revistas de quadrinhos e elementos de cultura pop" width="400">
+            <a href="#topo">Voltar ao topo</a>
+        </section>
+        <hr>
+        <section id="sobre">
+            <h2>Sobre o Clube</h2>
+            <p>O clube contará com encontros mensais, onde os membros poderão trocar quadrinhos, discutir sobre as histórias e personagens, e participar de atividades relacionadas à cultura dos quadrinhos.</p>
+            <h3>Clube de Leitura</h3>
+            <p>O clube de leitura terá encontros semanais, onde os membros poderão discutir sobre as histórias e personagens dos quadrinhos, e compartilhar suas opiniões e interpretações.</p>
+            <h3>Área de artístas</h3>
+            <p>A área de artistas será dedicada aos membros que desejam compartilhar suas próprias criações, como ilustrações, histórias em quadrinhos e fanarts.</p>
+            <P>Também compartilhamento de técnicas de desenhos, pintura e dicas de escrita, para que os que quiserem se aprimorarem mutuamente.</P>
+            <a href="#topo">Voltar ao topo</a>
+        </section>
+        <hr>
+        <section id="inscricao">
+            <h2>Inscrição</h2>
+            <p>Faça sua inscrição pelo formulário abaixo:</p>
+            <form action="https://ivanpires.dev/processa.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" pattern="^\(?\d{2}\)?\s?\d{4,5}-?\d{4}$" title="Formato: (00) 00000-0000 ou 00000-0000" required>
+                <br>
+                <label for="endereço">Endereço:</label>
+                <input type="text" id="endereço" name="endereço" required>
+                <br>
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" pattern="\d{5}-\d{3}" title="Formato: 00000-000" required>
+                <br>
+                <select name="coffee break" id="coffee break">
+                    <label for="coffee break">Sugestões de coffee break:</label>
+                    <option value="pão de queijo">Pão de queijo</option>
+                    <option value="salgadinhos">Salgadinhos</option>
+                    <option value="sanduíches">Sanduíches</option>
+                    <option value="doces">Doces</option>
+                </select>
+                <br>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

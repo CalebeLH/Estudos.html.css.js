@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Formulario</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Página Inicial</a>
+        <a href="formulario.html">Formulário</a>
+    </nav>
+    <hr>
+    <main>
+        <h1>Formulário</h1>
+        <form action="http://localhost/processa.php" method="post">
+
+             <fieldset>  
+                <legend>Dados Pessoais do cliente</legend>
+                <label for="nome">Nome:</label>
+                <input id="nome" type="text" placeholder="Digite seu nome: ">
+                <br>
+                <label for="email">Email:</label>
+                <input id="email" type="email" placeholder="Digite seu e-mail: ">
+                <br>
+                <label for="telefone">Telefone:</label>
+                <input id="telefone" type="tel" placeholder="Digite seu telefone: ">
+             </fieldset>
+             <fieldset>
+                <legend>Endereço</legend>
+                <label for="rua">Rua:</label>
+                <input id="rua" type="text" placeholder="Digite o número da sua rua: ">
+                <br>
+                <label for="numero">Número</label>
+                <input id="numero" type="number" placeholder="Digite o número da rua: ">
+                <br>
+                <label for="bairro">Bairro:</label>
+                <input id="bairro" type="text" placeholder="Digite o nome do Bairro: ">
+                <br>
+                <label for="cep">CEP:</label>
+                <input id="cep" type="text" placeholder="Digite seu CEP: ">
+             </fieldset>
+        </form>
+    </main>
+</body>
+</html>
